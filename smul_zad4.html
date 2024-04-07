@@ -1,63 +1,50 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Sposoby podłączania CSS do kodu strony WWW</title>
+<meta charset="utf-8"/>
 </head>
+
 <body>
-<table border="10">
-
-
-<b><u>1)Zewnętrzny</u> arkusz stylów.</b>
-<tr>
-<td> 
-<head>
-<link rel="Stylesheet" type="text/css" href="style.css" />
-</head>
-</td>
-</tr>
-
-<b>2)Styl <u>lokalny</u></b>
-<tr>
+<h1>Sposoby podłączania CSS do kodu strony WWW</h1>
+<p>1)Zewnętrzny arkusz stylów.<br>
+<table border="1" align=center width="80%">
 <td>
-<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+< HEAD ><br>
+< LINK rel="Stylesheet" type="text/css" href="style.css" /><br>
+< / HEAD>
 </td>
-</tr>
-    
-<b><u>3)Wewętrzny</u>styl arkuszów</b>
-<tr>
-<td>
-<head>
- <style type="text/css">
- selektor1 { cecha: wartość; cecha2: wartość2... }
- selektor2 { cecha: wartość; cecha2: wartość2... }
- </style>
-</head>
-</td>
-</tr>
-    
-<b><u>4)Alternatywny</u>arkusz stylów</b>
-<tr>
-<td>
-<head>
-<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
-<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
-<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
-</head>
-</td>
-</tr>
-    
-<b><u>5)Import</u> arkusza stylów</b>
-<tr>
-<td>
-<style type="text/css">
- @import url(adres zewnętrznego arkusza stylów);
-</style>
-</td>
-</tr>
-    
-
 </table>
-
-</body>
+2)Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
+dopisanie arkusza do wybranego bloku treści strony.<br>
+<table border="1" align=center width="80%">
+<td> < SELEKTOR style="cecha1: wartość1; cecha2: wartość2...">...< / SELEKTOR ></td>
+</table>
+3)Wewnętrzny arkusz stylów.<br>
+<table border="1" align=center width="80%">
+<td>
+< HEAD ><br>
+ < STYLE  type="text/css"><br>
+ selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+ selektor2 { cecha: wartość; cecha2: wartość2... } </ STYLE ><br>
+< / HEAD ></td>
+</table>
+4)Alternatywny arkusz stylów.<br>
+<table border="1" align=center width="80%">
+<td>
+< HEAD ><br>
+< LINK  rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /><br>
+< LINK  rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /><br>
+< LINK rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /><br>
+< / HEAD >
+</td>
+</table>
+5)Import arkusza stylów.<br>
+<table border="1" align=center width="80%">
+<td>
+< STYLE  type="text/css"><br>
+ @import url(adres zewnętrznego arkusza stylów);<br>
+< / STYLE>
+</td>
+</table>
+</p>
 </html>
