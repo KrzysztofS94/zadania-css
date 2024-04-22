@@ -1,10 +1,10 @@
 p
 {
   color: red;
-  size: 40pt;
+  font-size: 40pt;
 } 
 span
 {
   color: green;
-  size: 25pt;
+  font-size: 25pt;
 }
