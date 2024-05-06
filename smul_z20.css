@@ -20,5 +20,29 @@ i
 {
 color:green;
 font-size: 20pt;
-
+font-weight: bold;
+}
+strike
+{
+color:red;
+font-size:20pt;
+font-weight:bold;
+}
+u
+{
+color:violet;
+font-size:20pt;
+ftext-decoration:overline;
+}
+#numer
+{
+bg-color: #C0D727;
+  width: 30%;
+  height: 100%;
+}
+h1
+{
+color:blue;
+font-size:30pt;
+text-decoration:overline;
 }
