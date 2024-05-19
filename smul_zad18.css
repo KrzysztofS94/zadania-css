@@ -1,14 +1,15 @@
 #pierwszy
 {
-ackground-color: fuchsia; 
+background-color: fuchsia; 
 width: 1205px;
 }
 #trzeci
 {
-background-color: #FFFF00;
+background-color: yellow;
 width: 1105px;
 }
 #drugi
 {
-
+background-color: red; 
+width: 1005px;
 }
